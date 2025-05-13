@@ -1,1 +1,6 @@
-.API
+# Python
+__pycache__/
+*.py[cod]
+*.env
+venv/
+API/
