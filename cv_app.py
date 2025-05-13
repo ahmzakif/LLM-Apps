@@ -1,5 +1,4 @@
 import pandas as pd
-from transformers import ViTModel
 import streamlit as st
 from streamlit_theme import st_theme
 
@@ -8,7 +7,6 @@ from pydantic import BaseModel, Field
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.callbacks.manager import get_openai_callback
-model = ViTModel.from_pretrained
 
 with st.spinner("Preparing Application"):
     theme_json = st_theme()
