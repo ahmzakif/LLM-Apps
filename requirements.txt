@@ -1,0 +1,10 @@
+streamlit
+openai
+google-genai
+pillow
+pathlib
+st-theme
+langchain-google-genai
+langchain
+langchain-community
+XlsxWriter

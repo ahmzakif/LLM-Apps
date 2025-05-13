@@ -1,0 +1,3 @@
+CV_API_KEY = 'AIzaSyCHwqJzuo_JdzR3MMLp8FRHjZQcgNTUjic'
+CHATBOT_API_KEY = 'AIzaSyCmEYw-LvEh7dVwlgCl-ZMw-EVs6fYNrBw'
+INVOICE_API_KEY = 'AIzaSyDEtx1AoalVWC_i-j9shTeDHmh380kJfgY'
