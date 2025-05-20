@@ -24,7 +24,7 @@ def get_answer(prompt, history, file=False):
         )
     else:
         response = client.models.generate_content(
-            model="gemini-2.0-flash-exp-image-generation",
+            model="gemma-3-12b-it",
             contents=fix_prompt
         )
     return response
@@ -41,7 +41,7 @@ def get_answer_web(prompt, history):
     )
 
     response = client.models.generate_content(
-        model="gemini-2.0-flash-exp-image-generation",
+        model="gemma-3-12b-it",
         contents=fix_prompt,
         config=GenerateContentConfig(
             tools=[google_search_tool],

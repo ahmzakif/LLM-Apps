@@ -86,7 +86,7 @@ elif option == "Capture from Camera":
 
 if api_key and base64_string:
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash-exp-image-generation",
+        model="gemma-3-12b-it",
         api_key=api_key
     )
 

@@ -113,7 +113,7 @@ api_key = st.text_input("Enter your API Key:", type="password")
 
 if api_key:
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash-exp-image-generation",
+        model="gemma-3-12b-it",
         api_key=api_key
     )
 
